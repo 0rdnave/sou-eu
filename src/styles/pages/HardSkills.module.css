@@ -1,0 +1,137 @@
+.hardSkillsContainer {
+  margin-left: 0.188rem;  
+  margin-bottom: 0.625rem;
+}
+
+
+.hardSkillsBoxVerticalLine {
+  position: absolute;
+  height: 29.313rem;
+  width: 0.125rem;
+  
+  margin-left: 1.875rem;
+  
+  background: #8395A7;
+}
+
+.hardSkillsTitle {
+  margin-top: 3.75rem;
+  margin-left: 3.75rem;
+
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 0.25rem;
+
+  color: #222F3E;
+}
+
+.labelsContent {  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  
+  margin-bottom: 6.125rem;
+  margin-right: 0.13rem;
+}
+
+.label {  
+  
+  clip-path: polygon(0% 0%, 82.15% 0%, 100% 50%, 82.15% 100%, 0% 100%);
+
+  width: 3.5rem;
+  height: 1.625rem;
+
+  background: rgba(52, 31, 151, 1);
+
+}
+
+.labelTextBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.875;
+  height: 1.625rem;
+}
+
+.labelTextBox p { 
+  font-weight: 600;
+  font-size: 0.55rem;
+  
+  color: #FFFFFF;
+}
+
+.graduationContainer {
+display: flex;
+}
+
+
+.graduationContent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.875rem;
+  
+  width: 21.25rem;
+  height: 6.875rem;
+
+  background: #5F27CD;
+  box-shadow: 0.063rem 0.063rem 0.125rem 0.063rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.188rem;
+}
+
+.graduationContent p {
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+.graduationCurse {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.188rem;
+  
+  color: #FFFFFF;
+
+  padding: 0;
+  margin: 0.625rem 0 0 0;
+}
+
+.graduationInstituition {
+  color: #FFFFFF;
+
+  font-weight: 500;
+  line-height: 0.875rem;
+  
+  font-size: 0.75rem;
+  margin: 0.625rem 0 0.625rem 0;
+}
+
+.graduationContent button {
+  align-self: center;
+  width: 15.313rem;
+  height: 2.125rem;
+  border-radius: 1.188rem;
+  box-shadow: 0.375rem 0.375rem 0.313rem -0.313rem rgba(0, 0, 0, 0.25);
+  background: #8243FF;
+
+  color: #FFFFFF;
+  font-size: 0.625rem;
+  font-weight: 400;
+}
+
+.moreButtonContent {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.moreButtonContent button {
+  border: none;
+  
+  background: none;
+  
+  color: #8395A7;
+
+}

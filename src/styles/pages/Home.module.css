@@ -1,0 +1,50 @@
+.main {
+  background: #C8D6E5;
+  width: 76.125rem;
+  height: 49.313rem;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  
+  grid-template-areas: "profile expertise"
+                       "profile  skill";
+}
+
+
+.profileBox {
+  grid-area: profile;
+  
+  width: 25rem;
+  
+}
+
+.expertiseBox {
+  grid-area: expertise;
+  
+  display: flex;
+  
+  width: 50rem;
+  height: 31.25rem;
+  
+}
+
+.skillBox {
+  grid-area: skill;
+
+  width: 50rem;
+  height: 18.125rem;
+
+  display: flex;
+  
+}
+.footer {
+  margin-top: 16px;
+  
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}

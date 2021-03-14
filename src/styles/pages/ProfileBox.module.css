@@ -1,0 +1,180 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 370px;
+  height: 789px;
+  
+  margin: 0;
+  margin-left: 30px;
+
+  background: #5F27CD;
+}
+
+.profileImageBox{
+  width: 120px;
+  height: 120px;
+
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.profileImageBox img {
+  width: 130px;
+  height: 154px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+
+  width: 293px;
+  height: 120px;
+
+  margin: 30px 0 0 30px;
+}
+
+.title h1{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;  
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+
+  margin: 0;
+}
+
+.title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  margin: -3px 0 0 3px;
+}
+
+
+.title strong {
+  font-size: 14px;
+  font-weight: 400;
+  
+  height: 16px;
+
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  
+  margin: 0 0 0 3px;
+}
+
+.title p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  
+  margin: 2px 0 0 3px;
+}
+
+
+
+.personalTitliesContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 310px;
+  height: 249px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.personalTitliesContainer strong {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+
+  margin-left: 30px;
+}
+
+.personalTitliesContainer p {
+  width: 280px;
+  height: 187px;
+  overflow: hidden;
+
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  
+  color: #FFFFFF;
+  
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.personalBoxVerticalLine {
+  position: absolute;
+
+  height: 249px;
+  width: 2px;
+}
+
+
+
+
+
+
+.contactContainer {
+  width: 257px;
+  height: 90px;
+
+  margin-bottom: 20px;
+  margin-left: 30px;
+  
+  display: flex;
+}
+
+.contactContainerIcons {
+  height: 89px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactContainerIcons div {
+  width: 30px;
+  height: 23px;
+  margin-bottom: 10px;
+}
+
+.contactContainerText {
+  display: flex;
+  flex-direction: column;
+    
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+
+.contactContainerText p {
+  font-weight: 500;
+  font-size: 19.7143px;
+  line-height: 23px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.contactContainerIconsTitle {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #FFFFFF;
+
+  margin-left: 30px;
+  }
+  

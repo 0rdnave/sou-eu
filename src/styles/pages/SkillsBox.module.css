@@ -1,0 +1,353 @@
+.skillBoxcontainer {
+  width: 48.125rem;
+  height: 16.25rem;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  grid-template-areas:  "tools  motivations"
+                        "hobbies hobbies"   ;
+
+  background: #5F27CD;
+
+
+  box-shadow: 0.063rem 0.063rem 0.125rem 0.063rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.625rem;
+  margin-bottom: 1.875rem;
+  margin-left: 30px;
+}
+
+
+
+.skillBoxHorizontalLine {
+  width: 45ren;
+  height: 0.125rem;
+
+  background: #C8D6E5;
+  
+  position: absolute;
+  margin: 11.125rem 0 0 1.25rem;
+}
+
+.skillBoxVerticalLine {
+  width: 0.125rem;
+  height: 10rem;
+
+  background: #C8D6E5;
+  
+  position: absolute;
+  margin: 1.25rem 0 0 31.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.toolBoxcontainer {
+  grid-area: tools;
+
+
+  width: 27.5rem;
+  height: 9.25rem;
+  
+  margin-top: 1.875rem;
+  margin-left: 1.875rem;
+}
+
+.toolBoxcontainer h1{
+  height: 2.188rem;
+
+  margin: 0;
+
+  font-weight: 500;
+  font-size: 1.875rem;
+
+  color: #FFFFFF;
+}
+
+.icons{
+  width: 26.625 rem;
+  
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 1.25rem;
+  
+  
+}
+
+
+.icons img {
+  width: 3rem;
+  height: 2.5rem;
+  
+}
+
+.names {
+  display: flex;
+  justify-content: space-between;
+  width: 27.5rem;
+  height: 0.688rem;
+
+  margin-top: 0.188rem;
+  margin-bottom: 0.375rem;
+}
+
+.names div {
+  margin: 0;
+  width: 3rem;
+  height: 1rem;
+}
+
+.toolBoxcontainer p{
+  margin: 0;
+  
+  
+  font-weight: 400;
+  font-size: 0.6rem;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+}
+
+.toolsPointsContainerEmpty{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  height: 0.938rem;
+  width: 27rem;
+  margin-left: 0.25rem;
+}
+
+.toolsPointsEmpty{
+  display: flex;
+  justify-content: space-between;
+  width: 2.5rem;
+  height: 0.938rem;  
+}
+
+.toolsPointsEmpty div { 
+  height: 0.375rem;
+  width: 0.375rem;
+  border-radius: 0.188rem;
+  background: #C8D6E5;
+}
+
+.toolsPointsContainerFull { 
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  height: 0.938rem;
+  width: 27rem;
+margin: 0;
+  margin-left: 0.25rem;
+}
+
+.toolsPointsFull {
+  display: flex;
+  justify-content: space-between;
+  width: 2.5rem;
+  height: 0.938rem;
+  
+}
+
+.toolsPointsFull div { 
+  height: 0.375rem;
+  width: 0.375rem;
+  border-radius: 0.188rem;
+}
+
+.ativePoints {
+  background: #54A0FF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+.motivationBoxcontainer{
+
+  grid-area: motivations;
+
+}
+
+
+.motivationItensContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 2.188rem 5.938rem;
+  grid-template-areas: "title title"
+  "names level";
+  
+  width: 18.75rem;
+  height: 9.25rem;
+  margin-top: 1.875rem;
+  margin-left: 3.75rem;
+  
+
+}
+
+.title {
+  grid-area: title;
+  
+  
+  align-items: center;
+  margin: 0;
+}
+
+.title p{  
+
+  font-weight: 500;
+  font-size: 1.875rem;
+
+  color: #fff;
+
+  margin: 0;
+
+}
+
+.motivationsItens {
+  grid-area: names;
+  margin-top: 1.25rem;
+}
+
+.motivationsItens p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;  
+  color: #FFFFFF;
+
+  margin: 0 0 0.25rem 0;
+}
+
+.motivationsLevel {
+  grid-area: level;
+  
+  width: 6.75rem;
+  height: 4.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.25rem;
+  
+}
+
+.motivationBarEmpty { 
+  
+  position: absolute;
+}
+
+.motivationBarEmpty div {
+  border-radius: 0.25rem;
+  height: 0.5rem;
+  width: 6.75rem;
+  
+  margin-bottom: 0.875rem;
+}
+
+.motivationBarfull { 
+  
+  position: absolute;
+}
+
+.motivationBarfull div {
+  border-radius: 0.25rem;
+
+  height: 0.5rem;
+  margin-bottom: 0.875rem;
+}
+
+.firstBar {
+  width: 4.75rem;
+
+}
+.secoundBar {
+  width: 5.75rem;
+}
+.thirdBar {
+  width: 4.375rem;
+}
+.fourthBar {
+  width: 3.75rem;
+}
+
+
+
+
+
+
+
+
+
+
+.hobbiesBoxcontainer {
+  grid-area: hobbies;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 44.375rem;
+  height: 3.875rem;
+  margin-top: 0.438rem;
+  margin-left: 1.875rem;
+  
+}
+
+.titleHobbies {
+  font-weight: 500;
+  font-size: 1.875rem;
+  
+  color: #FFFFFF;
+}
+
+.hobbiesBoxItens {
+  width: 33.5rem;
+  height: 3.438rem;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.hobbiesBoxItens div {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hobbiesBoxItens img {
+  margin: 0;
+  height: 2.5rem;
+}
+
+.hobbiesBoxItens p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1rem;
+  
+  margin-top: 0.063rem;
+  color: #FFFFFF;
+  
+}
+
